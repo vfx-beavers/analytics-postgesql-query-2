@@ -23,6 +23,7 @@
 - 4_export_exel.py - переименование итоговых столбцов и выгрузка в exel
 - db_and_views_backup-de - слепок db и view для проверки
 - docker.txt - строка для тестового докера
+- out_main_table.xlsx - пример выгрузки
 
 ### Среда
 docker run -d -p 15432:5432 --name=de-ashan-test -e POSTGRES_USER=pguser -e POSTGRES_PASSWORD=pgpwd -e POSTGRES_DB=de -d postgres:13
